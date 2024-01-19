@@ -1,0 +1,169 @@
+
+*{
+    font-family: 'Inter';
+
+}
+.navbar{
+    /* border: 5px solid black; */
+    display: flex;
+justify-content:space-between;
+padding-right: 100px;
+padding-left: 100px;
+
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+
+}
+
+
+  ul li:hover{
+      color: hsl(35, 77%, 62%);
+
+  }
+  .navbar img{
+    padding-top: 15px;
+}
+.big-pic{
+    padding-top: 25px;
+    /* border: 5px solid blueviolet; */
+}
+.big-pic{
+    width: fit-content;
+}
+.big-pic img{
+    height:400px;
+    width:1000px  ;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.headings{
+    height:188px ;
+    width: 268px;
+    padding-left: 100px;
+    font-weight:bolder;
+
+}
+.para{
+    width: 400px;
+    font-size: 15px;
+    height: 100px;
+    font-weight:500 ;
+
+}
+.text{
+    display: flex;
+    padding-top:20px;
+    height: 100px;
+    width: fit-content;
+    
+}
+.read-more{
+padding-left: 360px;
+
+}
+.read-more button{
+    height:40px ;
+    width: 140px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-size: 15px;
+
+}
+.read-more button:hover{
+    background-color: black;
+}
+
+.black-box{
+ height:550px ;
+ width: 300px;
+ /* border: 5px solid brown; */
+ /* padding-right: 50px; */
+ color: white;
+ background-color: black;
+ padding-left:20px ;
+ padding-right: 20px;
+ padding: 20px;
+
+
+}
+.black-box .new :hover{
+    color: hsl(35, 77%, 62%) ;
+}
+.black-box p {
+   color:lightgrey  ;
+}
+
+.mid-part{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    /* border: 5px olivedrab dotted; */
+    justify-content: space-between;
+}
+hr{
+    color: lightgray;
+}
+.cards{
+
+    /* border: 5px solid black; */
+}
+.cards img{
+    height: 200px;
+    width: 200px;
+    
+} 
+.card1{
+    width:400px;
+    /* border: 5px solid red; */
+    display: flex;
+    
+}
+.cards h1 {
+    color: lightgray;
+}
+.cards p{
+    color: lightgrey;
+}
+.orange{
+    color: black;
+}
+.orange :hover{
+    color:hsl(35, 77%, 62%);
+}
+.Ctext{
+    padding-left: 20px;
+}
+
+.card2{
+    width:400px;
+    /* border: 5px solid green; */
+    display: flex;
+    
+    
+}
+.Ctext2{
+    padding-left: 20px;
+}
+
+
+.card3{
+    width:400px;
+    /* border: 5px solid blue; */
+    display: flex;
+    
+}
+.Ctext3{
+    padding-left: 20px;
+}
+.cards{
+    display: flex;
+    padding-left: 100px;
+}

@@ -1,0 +1,168 @@
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        display: flex;
+        /* justify-content: center; */
+        font-family: "Inter", sans-serif;
+      }
+      .attribution {
+        padding-top: 52px;
+        border: 2px solid black;
+        /* height: 1022px;
+        width: 1430px; */
+      }
+      .logo {
+        float: left;
+        padding-left: 50px;
+      }
+      .attribution a {
+        color: black;
+      }
+
+      ul {
+        font-size: 11px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: right;
+        display: flex;
+        margin-right: 50px;
+      }
+
+      li a {
+        display: block;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .item:hover {
+        color: hsl(35, 77%, 62%);
+      }
+
+      .NEW {
+        display: block; 
+        display: flex;
+        justify-content: start;
+        padding-left: 20px;
+      }
+      .NEW:hover{
+        color: hsl(35, 77%, 62%);
+
+      }
+
+      .blackbox {
+        height: 518px;
+        width: 353px;
+        border: 5px solid blue;
+        padding: 20px;
+        margin-left: 1000px;
+        color: white;
+        background-color: black;
+        margin-bottom: 50px;
+        
+      }
+      .heading1{
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: left;
+      }
+      .heading2:hover{
+        color: hsl(35, 77%, 62%);
+
+      }
+      .heading3:hover{
+        color: hsl(35, 77%, 62%);
+
+      }
+
+      .image{
+        padding-top: 50px;
+      display: block;
+        display: flex;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 200px;
+        height: 200px;
+      }
+      .bhead{
+        font-size:30px;
+        padding-left:50px;
+        font-weight: bold;
+        
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Home
+  New
+  Popular
+  Trending
+  Categories
+
+  The Bright Future of Web 3.0?
+
+  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?
+
+  Read more
+
+  New 
+
+  Hydrogen VS Electric Cars
+  Will hydrogen-fueled cars ever catch up to EVs?
+
+  The Downsides of AI Artistry
+  What are the possible adverse effects of on-demand AI image generation?
+
+  Is VC Funding Drying Up?
+  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+
+  01
+  Reviving Retro PCs
+  What happens when old PCs are given modern upgrades?
+
+  02
+  Top 10 Laptops of 2022
+  Our best picks for various needs and budgets.
+
+  03
+  The Growth of Gaming
+  How the pandemic has sparked fresh opportunities.
+   -->
+    <div class="attribution">
+      <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+      <div class="navbar">
+        <a class="logo"><img src="./assets/images/logo.svg" /></a>
+        <ul>
+          <li><a class="item" href="#home">Home</a></li>
+          <li><a class="item" href="#news">News</a></li>
+          <li><a class="item" href="#contact">Contact</a></li>
+          <li><a class="item" href="#about">About</a></li>
+        </ul>
+      </div>
+      
+      <div class="imgcontainer">
+        <div class="image"><img src="./assets/images/image-web-3-desktop.jpg" ></div>
+      </div>
+      <div class="blackbox">
+        <h1 class="NEW">NEW</h1>
+        <div class="para1">
+          <h4 class="heading1"> Hydrogen VS Electric Cars</h4>
+          <p class="pre1">Will hydrogen-fueled cars ever catch up to EVs?</p></div>
+
+<br>
+          <div class="para1">
+            <h4 class="heading2"> The Downsides of AI Artistry</h4>
+            <p class="pre1"> What are the possible adverse effects of on-demand AI image generation?</p></div>
+
+<br>
+            <div class="para1">
+              <h4 class="heading3">Is VC Funding Drying Up?</h4>
+              <p class="pre1">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p></div>
+      </div>
+     <h4 class="bhead"><pre>The bright 
+Future of 
+Web 3.0?</pre></h4>
